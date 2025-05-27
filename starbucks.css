@@ -104,6 +104,40 @@ button{
     display: none;
 }
 
+.form{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    float: right;
+    position: relative;
+    box-sizing: border-box;
+    top: -15px;
+    padding: 9px;
+    font-size: 22px;
+    color: #BBBBBB;
+    border-width: 12px;
+    border-color: #ccc;
+    border-style: solid;
+    background-clip: padding-box;
+    position: absolute;
+    display: none;
+}
+
+input[type=button]{
+    width: 100%;
+    max-width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(139, 208, 205);
+    cursor: pointer;
+    color: white;
+    border: #ccc;
+}
+
+.form h3{
+    color: #BBBBBB;
+}
+
 @media screen and (max-width:1050px){
     .extras{
         display: none;
